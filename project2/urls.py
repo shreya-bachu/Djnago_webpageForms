@@ -22,5 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('insert_topic/',insert_topic,name='insert_topic'),
     path('insert_webpage/',insert_webpage,name='insert_webpage'),
+    path('insert_topic_modelform/',insert_topic_modelform,name='insert_topic_modelform'),
+    path('insert_webpage_modelform/',insert_webpage_modelform,name='insert_webpage_modelform'),
 
 ]

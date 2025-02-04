@@ -7,14 +7,14 @@
 </head>
 <body>
     <center>
-        <h1>WebpageForm</h1>
+        <h1>Insert_topic_ModelForms</h1>
         <form method="POST">
             {% csrf_token %}
+            {{ ETMFO.as_p }}
+            <input type="submit" value="Insert_topic_ModelForms">
 
-            {{ EWFTO.as_p }}
-
-            <input type="submit">
         </form>
+        
 
     </center>
     
